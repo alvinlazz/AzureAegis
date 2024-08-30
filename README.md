@@ -1,6 +1,6 @@
-# AzureVault 🚀
+# AzureAegis 🚀
 
-Welcome to **AzureVault**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
+Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
 [![Build Status](https://img.shields.io/github/workflow/status/owner/azurevault/CI)](https://github.com/owner/azurevault/actions)
 [![Version](https://img.shields.io/github/tag/owner/azurevault.svg)](https://github.com/owner/azurevault/tags)
@@ -18,17 +18,17 @@ Welcome to **AzureVault**! 🎉 This PowerShell script provides a user-friendly 
 
 ## Introduction
 
-**AzureVault** simplifies the process of managing Azure Key Vault secrets by providing clear instructions and real-time feedback through a PowerShell script. Whether you're an admin or a developer, **AzureVault** ensures you have the tools you need to work efficiently with your Azure Key Vault.
+**AzureAegis** simplifies the process of managing Azure Key Vault secrets by providing clear instructions and real-time feedback through a PowerShell script. Whether you're an admin or a developer, **AzureVault** ensures you have the tools you need to work efficiently with your Azure Key Vault.
 
 ## Installation
 
-To get started with **AzureVault**, follow these steps:
+To get started with **AzureAegis**, follow these steps:
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/owner/azurevault.git
-    cd azurevault
+    git clone https://github.com/owner/AzureAegis.git
+    cd AzureAegis
     ```
 
 2. **Install the Azure modules:**
@@ -40,12 +40,12 @@ To get started with **AzureVault**, follow these steps:
 3. **Run the script:**
 
     ```powershell
-    .\AzureVault.ps1
+    .\AzureAegis.ps1
     ```
 
 ## Usage
 
-When you run **AzureVault**, you'll see the following instructions in the PowerShell console:
+When you run **AzureAegis**, you'll see the following instructions in the PowerShell console:
 
 - **Important:** Always keep an eye on colored text.
 - **Filtered most common Vault names print always.**
@@ -70,7 +70,7 @@ For detailed documentation, visit: https://github.com/alvinlazz/AzureAegis/edit/
 
 ## Project History
 
-**AzureVault** has evolved over time:
+**AzureAegis** has evolved over time:
 
 - **v1.0**: Initial release with core features and basic instructions.
 - **v1.1**: Added detailed security alerts and updated user interface.
@@ -78,7 +78,7 @@ For detailed documentation, visit: https://github.com/alvinlazz/AzureAegis/edit/
 
 ## Contributing
 
-We welcome contributions to **AzureVault**! To get involved:
+We welcome contributions to **AzureAegis**! To get involved:
 
 1. **Fork the repository.**
 2. **Create a new branch:**
@@ -111,7 +111,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, feel free to reach out:
 
-- [Your Name](mailto:you@example.com)
-- [Twitter](https://twitter.com/yourhandle)
+- [Your Name](mailto:alvin@seatec.uu.me)
 
-Happy exploring with **AzureVault**! 🎉
+Happy exploring with **AzureAegis**! 🎉
