@@ -2,6 +2,8 @@
 
 Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
+![Windows](https://img.shields.io/badge/Windows-05122A?style=flat&logo=microsoft&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-0078D4?style=flat&logo=powershell&logoColor=white)
 [![Version](https://img.shields.io/github/v/release/alvinlazz/AzureAegis?color=blue&label=release)](https://github.com/alvinlazz/AzureAegis/releases)
 [![GitHub license](https://img.shields.io/github/license/alvinlazz/AzureAegis?color=green)](https://github.com/alvinlazz/AzureAegis/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/alvinlazz/AzureAegis?color=red)](https://github.com/alvinlazz/AzureAegis/issues)
