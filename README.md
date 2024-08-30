@@ -2,9 +2,9 @@
 
 Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
-[![Build Status](https://img.shields.io/github/workflow/status/owner/azurevault/CI)](https://github.com/owner/azurevault/actions)
-[![Version](https://img.shields.io/github/tag/owner/azurevault.svg)](https://github.com/owner/azurevault/tags)
-[![License](https://img.shields.io/github/license/owner/azurevault.svg)](https://github.com/owner/azurevault/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/workflow/status/owner/AzureAegis/CI)](https://github.com/owner/AzureAegis/actions)
+[![Version](https://img.shields.io/github/tag/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/tags)
+[![License](https://img.shields.io/github/license/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/blob/main/LICENSE)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly 
 
 ## Introduction
 
-**AzureAegis** simplifies the process of managing Azure Key Vault secrets by providing clear instructions and real-time feedback through a PowerShell script. Whether you're an admin or a developer, **AzureVault** ensures you have the tools you need to work efficiently with your Azure Key Vault.
+**AzureAegis** simplifies the process of managing Azure Key Vault secrets by providing clear instructions and real-time feedback through a PowerShell script. Whether you're an admin or a developer, **AzureAegis** ensures you have the tools you need to work efficiently with your Azure Key Vault.
 
 ## Installation
 
