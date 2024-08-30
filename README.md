@@ -107,7 +107,7 @@ We welcome contributions to **AzureAegis**! To get involved:
 
 5. **Open a Pull Request** on GitHub.
 
-Please refer to our [contributing guidelines](CONTRIBUTING.md) for more details.
+Please refer to our [contributing guidelines](contributing.md) for more details.
 
 ## License
 
