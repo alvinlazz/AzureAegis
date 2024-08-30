@@ -2,15 +2,15 @@
 
 Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
-[![Build Status](https://img.shields.io/github/workflow/status/owner/AzureAegis/CI)](https://github.com/owner/AzureAegis/actions)
-[![Version](https://img.shields.io/github/tag/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/tags)
-[![License](https://img.shields.io/github/license/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/AzureAegis/retro?color=blue&label=release)]()
-[![GitHub license](https://img.shields.io/github/license/AzureAegis/retro?color=green)]()
-[![GitHub issues](https://img.shields.io/github/issues/AzureAegis/retro?color=red)]()
-[![GitHub stars](https://img.shields.io/github/stars/AzureAegis/retro?color=yellow)]()
-[![GitHub forks](https://img.shields.io/github/forks/AzureAegis/retro?color=orange)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/AzureAegis/retro?color=blue)]()
+[![Build Status](https://img.shields.io/github/actions/workflow/status/alvinlazz/AzureAegis/CI.yml)](https://github.com/alvinlazz/AzureAegis/actions)
+[![Version](https://img.shields.io/github/tag/alvinlazz/AzureAegis.svg)](https://github.com/alvinlazz/AzureAegis/tags)
+[![License](https://img.shields.io/github/license/alvinlazz/AzureAegis.svg)](https://github.com/alvinlazz/AzureAegis/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/alvinlazz/AzureAegis?color=blue&label=release)](https://github.com/alvinlazz/AzureAegis/releases)
+[![GitHub license](https://img.shields.io/github/license/alvinlazz/AzureAegis?color=green)](https://github.com/alvinlazz/AzureAegis/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/alvinlazz/AzureAegis?color=red)](https://github.com/alvinlazz/AzureAegis/issues)
+[![GitHub stars](https://img.shields.io/github/stars/alvinlazz/AzureAegis?color=yellow)](https://github.com/alvinlazz/AzureAegis/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/alvinlazz/AzureAegis?color=orange)](https://github.com/alvinlazz/AzureAegis/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/alvinlazz/AzureAegis?color=blue)](https://github.com/alvinlazz/AzureAegis/watchers)
 
 ## Table of Contents
 
@@ -72,7 +72,7 @@ Please ensure you follow these security best practices:
 
 Happy exploring! 🌟
 
-For detailed documentation, visit: https://github.com/alvinlazz/AzureAegis/edit/main/README.md
+For detailed documentation, visit: [KB Link Soon Publish]
 
 ## Project History
 
@@ -117,6 +117,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, feel free to reach out:
 
-- [Your Name](mailto:alvin@seatec.uu.me)
+- [To Me](mailto:alvin@seatec.uu.me)
 
 Happy exploring with **AzureAegis**! 🎉
