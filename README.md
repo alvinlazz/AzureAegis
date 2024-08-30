@@ -1,33 +1,117 @@
-# AzureAegis
-A tiny PowerShell script that retrieves Azure secrets
+# AzureVault 🚀
 
+Welcome to **AzureVault**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
-# AwesomeProject 🚀
-
-Welcome to **AwesomeProject**! 🎉 A project that does **amazing things** with **awesome technology**.
-
-[![Build Status](https://img.shields.io/github/workflow/status/owner/awesomeproject/CI)](https://github.com/owner/awesomeproject/actions)
-[![Version](https://img.shields.io/github/tag/owner/awesomeproject.svg)](https://github.com/owner/awesomeproject/tags)
+[![Build Status](https://img.shields.io/github/workflow/status/owner/azurevault/CI)](https://github.com/owner/azurevault/actions)
+[![Version](https://img.shields.io/github/tag/owner/azurevault.svg)](https://github.com/owner/azurevault/tags)
+[![License](https://img.shields.io/github/license/owner/azurevault.svg)](https://github.com/owner/azurevault/blob/main/LICENSE)
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Project History](#project-history)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 
-**AwesomeProject** helps you do **amazing things** with just a few lines of code. Whether you’re building a new app or enhancing an existing one, this project will make your life easier. 🌟
-
-![Demo](https://example.com/demo.gif)
+**AzureVault** simplifies the process of managing Azure Key Vault secrets by providing clear instructions and real-time feedback through a PowerShell script. Whether you're an admin or a developer, **AzureVault** ensures you have the tools you need to work efficiently with your Azure Key Vault.
 
 ## Installation
 
-To get started, clone the repository and install the dependencies:
+To get started with **AzureVault**, follow these steps:
 
-```bash
-git clone https://github.com/owner/awesomeproject.git
-cd awesomeproject
-npm install
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/owner/azurevault.git
+    cd azurevault
+    ```
+
+2. **Install the Azure modules:**
+
+    ```powershell
+    Install-Module -Name Az
+    ```
+
+3. **Run the script:**
+
+    ```powershell
+    .\AzureVault.ps1
+    ```
+
+## Usage
+
+When you run **AzureVault**, you'll see the following instructions in the PowerShell console:
+
+- **Important:** Always keep an eye on colored text.
+- **Filtered most common Vault names print always.**
+- **Type 'x' and Press ENTER** for a list of all options.
+- **Type 'number'** to enter a valid number seen in the console.
+- **Type 'name'** to refer to 'part or full' secret name.
+- **If 'name' given with 'part', there will be multiple secrets printed.**
+- **'Permission Error'** means you don't have access to the selected vault.
+- **Type 'H' and Press ENTER** to print this message.
+
+**Security Alert**
+
+Please ensure you follow these security best practices:
+
+- **Do not share your password** with anyone.
+- **Keep script updated** to guard against bugs/vulnerabilities.
+- **Report any suspicious/bug activity** immediately.
+
+Happy exploring! 🌟
+
+For detailed documentation, visit: https://github.com/alvinlazz/AzureAegis/edit/main/README.md
+
+## Project History
+
+**AzureVault** has evolved over time:
+
+- **v1.0**: Initial release with core features and basic instructions.
+- **v1.1**: Added detailed security alerts and updated user interface.
+- **v1.2**: Improved error handling and documentation.
+
+## Contributing
+
+We welcome contributions to **AzureVault**! To get involved:
+
+1. **Fork the repository.**
+2. **Create a new branch:**
+
+    ```bash
+    git checkout -b feature-branch
+    ```
+
+3. **Make your changes and commit:**
+
+    ```bash
+    git commit -am 'Add new feature'
+    ```
+
+4. **Push to your branch:**
+
+    ```bash
+    git push origin feature-branch
+    ```
+
+5. **Open a Pull Request** on GitHub.
+
+Please refer to our [contributing guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- [Your Name](mailto:you@example.com)
+- [Twitter](https://twitter.com/yourhandle)
+
+Happy exploring with **AzureVault**! 🎉
