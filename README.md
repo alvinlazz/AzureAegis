@@ -5,6 +5,12 @@ Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly 
 [![Build Status](https://img.shields.io/github/workflow/status/owner/AzureAegis/CI)](https://github.com/owner/AzureAegis/actions)
 [![Version](https://img.shields.io/github/tag/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/tags)
 [![License](https://img.shields.io/github/license/owner/AzureAegis.svg)](https://github.com/owner/AzureAegis/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/AzureAegis/retro?color=blue&label=release)]()
+[![GitHub license](https://img.shields.io/github/license/AzureAegis/retro?color=green)]()
+[![GitHub issues](https://img.shields.io/github/issues/AzureAegis/retro?color=red)]()
+[![GitHub stars](https://img.shields.io/github/stars/AzureAegis/retro?color=yellow)]()
+[![GitHub forks](https://img.shields.io/github/forks/AzureAegis/retro?color=orange)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/AzureAegis/retro?color=blue)]()
 
 ## Table of Contents
 
