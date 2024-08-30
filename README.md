@@ -1,11 +1,8 @@
-# AzureAegis 🚀
+# AzureAegis 🔐
 
 Welcome to **AzureAegis**! 🎉 This PowerShell script provides a user-friendly interface for interacting with Azure Key Vault, helping you manage and access your secrets efficiently.
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/alvinlazz/AzureAegis/CI.yml)](https://github.com/alvinlazz/AzureAegis/actions)
-[![Version](https://img.shields.io/github/tag/alvinlazz/AzureAegis.svg)](https://github.com/alvinlazz/AzureAegis/tags)
-[![License](https://img.shields.io/github/license/alvinlazz/AzureAegis.svg)](https://github.com/alvinlazz/AzureAegis/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/alvinlazz/AzureAegis?color=blue&label=release)](https://github.com/alvinlazz/AzureAegis/releases)
+[![Version](https://img.shields.io/github/v/release/alvinlazz/AzureAegis?color=blue&label=release)](https://github.com/alvinlazz/AzureAegis/releases)
 [![GitHub license](https://img.shields.io/github/license/alvinlazz/AzureAegis?color=green)](https://github.com/alvinlazz/AzureAegis/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/alvinlazz/AzureAegis?color=red)](https://github.com/alvinlazz/AzureAegis/issues)
 [![GitHub stars](https://img.shields.io/github/stars/alvinlazz/AzureAegis?color=yellow)](https://github.com/alvinlazz/AzureAegis/stargazers)
