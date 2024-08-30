@@ -1,7 +1,7 @@
 # Define the function to display the Help message
 function Show-Help {
     Write-Host "==========================" -ForegroundColor Cyan
-    Write-Host "  Welcome to AzureVault!" -ForegroundColor Green
+    Write-Host "  Welcome to AzureAegis!" -ForegroundColor Green
     Write-Host "==========================" -ForegroundColor Cyan
     Write-Host "  Version : 1.0" -ForegroundColor White
     Write-Host ""
@@ -20,8 +20,6 @@ function Show-Help {
     Write-Host "- **Do not share your password** with anyone." -ForegroundColor Yellow
     Write-Host "- **Keep script updated** to guard against bugs/vulnerabilities." -ForegroundColor Yellow
     Write-Host "- **Report any suspicious/bug activity** immediately." -ForegroundColor Yellow
-    Write-Host ""
-    Write-Host "For detailed documentation, visit: https://confluence.newfold.com/display/EMC/Get+Azure+Key+Vault+Secrets+in+Windows+Terminal" -ForegroundColor Blue
     Write-Host ""
     Write-Host "Happy exploring!`n" -ForegroundColor Green
 }
@@ -89,12 +87,12 @@ function Get-SecretWithProgress {
 function keyz {
     if (Test-Path $filePath) {
         $KeyVaults = Get-Content -Path $filePath
-        $KeyVaultsx = $KeyVaults | findstr /i "ops email database BMC"
+        $KeyVaultsx = $KeyVaults | findstr /i "PATTERN"												#<<<<<<< CHANGE HERE IN CODE WITH PATTERN 
         if ($KeyVaults) {
             function Print-Option {
                 param([string[]]$opts)
                 cls
-                Write-Host "`n Welcome To AzureVault, " -NoNewline -ForegroundColor Green
+                Write-Host "`n Welcome To AzureAegis, " -NoNewline -ForegroundColor Green
                 Write-Host "$currentUsername !" -ForegroundColor Cyan
                 Write-Host "`n ===================== `n" -ForegroundColor DarkMagenta				
 				for ($i = 0; $i -lt $opts.Length; $i++) {
@@ -165,8 +163,8 @@ function keyz {
                     } else {
                         cls
                         Write-Host "Selected Location:" -NoNewline -ForegroundColor Magenta
-						Write-Host "$selectedVault" -NoNewline -ForegroundColor Green
-						Write-Host "|| (Press 'x' and Enter Key to list all SecretName)`n" -ForegroundColor Magenta
+			Write-Host "$selectedVault" -NoNewline -ForegroundColor Green
+			Write-Host "|| (Press 'x' and Enter Key to list all SecretName)`n" -ForegroundColor Magenta
                         $pattern = Read-Host "Enter\Paste secret 'name'"
                         $ScList = Get-content "C:\Users\$currentUsername\KeySecrets.txt" | findstr $pattern
                         if ($pattern -match 'x') {
@@ -228,7 +226,7 @@ function keyz {
             $selectedOption = Read-Option -opts $KeyVaultsx
             Search-Option -opts $selectedOption
         } else {
-            $uniqueValue = Get-AzKeyVault | findstr /r "^Vault" | Select-String -Pattern '\b\w*kv-\w*-\w*-*\w*\b' -AllMatches
+            $uniqueValue = Get-AzKeyVault | findstr /r "^Vault" | Select-String -Pattern 'PATTERN' -AllMatches					#<<<<<<< CHANGE HERE IN CODE WITH PATTERN		
             foreach ($match in $uniqueValue.Matches) {
                 $contentToAdd = "$number $match";
                 Add-Content -Path "C:\Users\$currentUsername\KeyVaults.txt" -Value $contentToAdd;
@@ -236,7 +234,7 @@ function keyz {
             }
             $filePath = "C:\Users\$currentUsername\KeyVaults.txt"
             $KeyVaults = Get-content $filePath
-            $KeyVaultsx = $KeyVaults | findstr /i "ops email database BMC"
+            $KeyVaultsx = $KeyVaults | findstr /i "PATTERN"											#<<<<<<< CHANGE HERE IN CODE WITH PATTERN 
             keyz
         }
     } else {
